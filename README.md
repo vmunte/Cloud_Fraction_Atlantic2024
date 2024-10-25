@@ -94,6 +94,31 @@ geostationary projection documentation
 funny Basemap Thread
 (https://github.com/matplotlib/basemap/issues/361)
 
+
+## References and Resources
+
+- **Brian Blaylock’s Resources**: For accessing GOES satellite data and `goes2go` details:
+  - [Brian's GitHub](https://github.com/blaylockbk/goes2go)
+  - [Brian's Homepage](https://home.chpc.utah.edu/~u0553130/Brian_Blaylock/home.html)
+  - [Mapping GOES16 TrueColor](https://github.com/blaylockbk/pyBKB_v3/blob/master/BB_GOES/mapping_GOES16_TrueColor.ipynb)
+  - [GOES Image Viewer](https://www.star.nesdis.noaa.gov/goes/sector.php?sat=G16&sector=gm)
+  - [GOES ABI Field of View](https://goes2go.readthedocs.io/en/latest/user_guide/notebooks/field-of-view_ABI.html)
+
+- **Further Reading**:
+  - [NOAA GOES on AWS](https://docs.opendata.aws/noaa-goes16/cics-readme.html)
+  - [GOES Series Documentation](https://www.goes-r.gov/resources/docs.html)
+  - [AWS CLI Troubleshooting](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-troubleshooting.html#general-formatting)
+  - [Beginner's Guide to GOES Data](https://www.goes-r.gov/downloads/resources/documents/Beginners_Guide_to_GOES-R_Series_Data.pdf)
+  - [NASA GitHub for Accessing GOES Data](https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-goes16)
+  - [Satellite Data Information from NESDIS](https://www.star.nesdis.noaa.gov/atmospheric-composition-training/satellite_data.php#abi_aws)
+  - [GOES Imager Projection](https://www.star.nesdis.noaa.gov/atmospheric-composition-training/satellite_data_goes_imager_projection.php#:~:text=If%20you%20want%20to%20work,in%20the%20GOES%2DR%20PUG.)
+  - [GOES Lat/Lon Conversion Code](https://www.star.nesdis.noaa.gov/atmospheric-composition-training/python_abi_lat_lon.php)
+  - [Leif’s GitHub for convml-tt](https://github.com/leifdenby/convml-tt?tab=readme-ov-file)
+  - [Geostationary Projection Documentation](https://proj4.org/en/9.5/operations/projections/geos.html)
+  - [Basemap Documentation](https://matplotlib.org/basemap/stable/users/geography.html)
+  - [Funny Basemap Thread](https://github.com/matplotlib/basemap/issues/361)
+
+
 Basemap Documentation (I did not use this, however, Brian does.)
 (https://matplotlib.org/basemap/stable/users/geography.html)
 

@@ -3,7 +3,7 @@ Anna Hall (ESS 569), Je-Yun Chun (ESS 569), Katherine Mifsud (ESS 569), and Vlad
 
 The objective of this geoscience machine learning project is to attempt to correctly identify cloud types/cloud morphologies through image based classification, such as a convolutional neural network. 
 
-The premise of this project could be completed or replicated using various model data sources like ERA5, MERRA2, CloudSat data, COSMIC data, MLS data, CMIP6 data. For this specific project, only data from geostationary weather satellite, GOES-R 16 is used for cloud identification. Data for meteorology constraints comes from MERRA-2. 
+The premise of this project could be completed or replicated using various data sources. For this specific project, only data from geostationary weather satellite, GOES-R 16 is used for cloud identification. Data for meteorology constraints comes from MERRA-2. 
 
 We chose to use a deep learning convolutional neural network (CNN) to identify and classify satellite images of clouds because this will allow us to automatically look for patterns, textures, and shapes in the images; sort and label them efficiently. Our CNN will process our satellite images that we input from GOES-R 16, and look for cloud formation, shape, and brightness. These features will aid in the classification process. CNNs are composed of several layers. The input layer is coomprised of the GOES-R 16 satellite images. The convolutional layer, will process the image and identify features and patterns. The output layer will provide the final morphology classification. 
 

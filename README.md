@@ -12,6 +12,7 @@ Before running any scripts or notebooks, the user should import the necessary pa
 
 Relevant packages and libraries to install include :
 
+```python
 from goes2go import GOES
 import pandas as pd
 from datetime import datetime
@@ -22,40 +23,14 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 import numpy as np
+```
+There are a couple of packages that may be unfamiliar to the every day python user **goes2go** and **subprocess**.
 
-The following are instructional links on how we downloaded data, organized it, and began processing it with the help of Brian Baylock, whom we acknowledge for helping us download the data. 
+The **goes2go** package is developed as an easy and efficient way to access GOES satellite data on the AWS server. This package is developed by **Brian Blaylock**. Instructions on installing and using the goes2go package can be found on this GitHub page:
 
-need to set up the AWS CLI
+https://github.com/blaylockbk/goes2go?tab=readme-ov-file#download-data 
 
-Satellite Data Information from NESDIS
-(https://www.star.nesdis.noaa.gov/atmospheric-composition-training/satellite_data.php#abi_aws)
-
-base aws registry
-(https://registry.opendata.aws/noaa-goes/)
-
-nasa github for accessing GOES data
-(https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-goes16)
-
-NESDIS STAR code for converting between ABI Grid and Lat/Lon
-(https://www.star.nesdis.noaa.gov/atmospheric-composition-training/python_abi_lat_lon.php)
-
-GOES Image Viewer
-(https://www.star.nesdis.noaa.gov/goes/sector.php?sat=G16&sector=gm)
-
-Leif's Github
-(https://github.com/leifdenby/convml-tt?tab=readme-ov-file)
-
-beginner's guide to GOES data
-(https://www.goes-r.gov/downloads/resources/documents/Beginners_Guide_to_GOES-R_Series_Data.pdf)
-
-NOAA GOES on AWS
-(https://docs.opendata.aws/noaa-goes16/cics-readme.html)
-
-GOES documents -- PUG v5 for converting to lat/lon grid
-(https://www.goes-r.gov/resources/docs.html)
-
-Imager Projector 
-(https://www.star.nesdis.noaa.gov/atmospheric-composition-training/satellite_data_goes_imager_projection.php#:~:text=If%20you%20want%20to%20work,in%20the%20GOES%2DR%20PUG.)
+Other important links pertaining to the goes2go python package and the man, the myth, the legend, himself can be found here:
 
 Brian's Homepage
 (https://home.chpc.utah.edu/~u0553130/Brian_Blaylock/home.html)
@@ -69,6 +44,50 @@ Brian's Bulk download github (GOES2go)
 Brian's ABI field of view
 (https://goes2go.readthedocs.io/en/latest/user_guide/notebooks/field-of-view_ABI.html)
 
+The next package that may be unfamiliar is subprocess. We use the subprocess package to access the GOES data stored on the AWS server.
+
+To set-up the AWS CLI on your own please follow these written instructions:
+
+NASA github for accessing GOES data
+(https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-goes16)
+
+To read more about the satellite data housed on the AWS server you can follow these links:
+
+NOAA GOES on AWS
+(https://docs.opendata.aws/noaa-goes16/cics-readme.html)
+
+Base AWS registry
+(https://registry.opendata.aws/noaa-goes/)
+
+for debugging AWS CLI follow this link:
+(https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-troubleshooting.html#general-formatting)
+
+For more information about the GOES Series:
+
+Satellite Data Information from NESDIS
+(https://www.star.nesdis.noaa.gov/atmospheric-composition-training/satellite_data.php#abi_aws)
+
+GOES Image Viewer
+(https://www.star.nesdis.noaa.gov/goes/sector.php?sat=G16&sector=gm)
+
+Beginner's guide to GOES data
+(https://www.goes-r.gov/downloads/resources/documents/Beginners_Guide_to_GOES-R_Series_Data.pdf)
+
+GOES documents -- PUG v5 for converting to lat/lon grid
+(https://www.goes-r.gov/resources/docs.html)
+
+Imager Projector 
+(https://www.star.nesdis.noaa.gov/atmospheric-composition-training/satellite_data_goes_imager_projection.php#:~:text=If%20you%20want%20to%20work,in%20the%20GOES%2DR%20PUG.)
+
+NESDIS STAR code for converting between ABI Grid and Lat/Lon
+(https://www.star.nesdis.noaa.gov/atmospheric-composition-training/python_abi_lat_lon.php)
+
+
+Other links that may be helpful:
+
+Leif's Github
+(https://github.com/leifdenby/convml-tt?tab=readme-ov-file)
+
 geostationary projection documentation
 (https://proj4.org/en/9.5/operations/projections/geos.html)
 
@@ -77,9 +96,6 @@ funny Basemap Thread
 
 Basemap Documentation (I did not use this, however, Brian does.)
 (https://matplotlib.org/basemap/stable/users/geography.html)
-
-for debugging AWS CLI follow this link:
-(https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-troubleshooting.html#general-formatting)
 
 
 **High-level descriptions of each added notebook and scripts in this repository will be updated frequently, as new files are added. 

@@ -3,32 +3,25 @@ Anna Hall (ESS 569), Je-Yun Chun (ESS 569), Katherine Mifsud (ESS 569), and Vlad
 
 The objective of this geoscience machine learning project is to attempt to correctly identify cloud types/cloud morphologies through image based classification, such as a convolutional neural network. 
 
-The premise of this project could be completed or replicated using various data sources. For this specific project, only data from geostationary weather satellite, GOES-R 16 is used for cloud identification. Data for meteorology constraints comes from MERRA-2. 
+The premise of this project could be completed or replicated using various data sources. For this specific project, only data from geostationary weather satellite, GOES-R 16 is used for cloud identification. We use three data products from the GOES-16 Satellite Series; a cloud image and moisture product, a cloud optical depth product, and a reflected shortwave radiation product.
 
 We chose to use a deep learning convolutional neural network (CNN) to identify and classify satellite images of clouds because this will allow us to automatically look for patterns, textures, and shapes in the images; sort and label them efficiently. Our CNN will process our satellite images that we input from GOES-R 16, and look for cloud formation, shape, and brightness. These features will aid in the classification process. CNNs are composed of several layers. The input layer is coomprised of the GOES-R 16 satellite images. The convolutional layer, will process the image and identify features and patterns. The output layer will provide the final morphology classification. 
 
 These notebooks and scripts are created in python through the VS Code platform. 
-Before running any scripts or notebooks, the user should install a seperate environment following these guidelines. 
-In the terminal window, `conda env create "name of environment" `
-To activate the environment before running any scripts/notebooks, `conda activate "name of environment"`
+Before running any scripts or notebooks, the user should import the necessary packages listed below, should the necessary packages not be available you can try a 'pip install **package name**' 
 
-Relevant packages and libraries to install include : 
-`pip install tensorflow numpy matplotlib opencv-python`
-`import tensorflow as tf`
-`from tensorflow.keras import layers, models`
-`import numpy as np`
-`import cv2`
-`import os`
-`import matplotlib.pyplot as plt`
-`from tensorflow.keras.preprocessing.image import ImageDataGenerator`
-`from goes2go import GOES`
-`import pandas as pd`
-`from datetime import datetime`
-`import xarray as xr`
-`import subprocess`
-`from netCDF4 import Dataset`
-`import cartopy.crs as ccrs`
-`import cartopy.feature as cfeature`
+Relevant packages and libraries to install include :
+
+from goes2go import GOES
+import pandas as pd
+from datetime import datetime
+import xarray as xr
+import subprocess
+from netCDF4 import Dataset
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+import matplotlib.pyplot as plt
+import numpy as np
 
 The following are instructional links on how we downloaded data, organized it, and began processing it with the help of Brian Baylock, whom we acknowledge for helping us download the data. 
 

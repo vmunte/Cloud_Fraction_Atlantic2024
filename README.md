@@ -29,6 +29,7 @@ There are a couple of packages that may be unfamiliar to the every day python us
 The **goes2go** package is developed as an easy and efficient way to access GOES satellite data on the AWS server. This package is developed by **Brian Blaylock**. Instructions on installing and using the goes2go package can be found on this GitHub page:
 
 [Brian's GitHub](https://github.com/blaylockbk/goes2go)
+[AWS CLI Download Instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 The next package that may be unfamiliar is subprocess. We use the subprocess package to access the GOES data stored on the AWS server.
 

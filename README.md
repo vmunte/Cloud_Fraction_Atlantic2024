@@ -69,3 +69,4 @@ Basemap Documentation (I did not use this, however, Brian does.)
 
 
 **High-level descriptions of each added notebook and scripts in this repository will be updated frequently, as new files are added. 
+Data is too large please navigate to this google drive for the data: https://drive.google.com/drive/folders/1PMfDE_NcJCksiyA4KFzyt387RP2d4bcR?usp=sharing

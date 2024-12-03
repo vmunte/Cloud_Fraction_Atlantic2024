@@ -1,4 +1,4 @@
-# Cloud_morphologies2024
+# Cloud_fraction_Atlantic2024
 Anna Hall (ESS 569), Je-Yun Chun (ESS 569), Katherine Mifsud (ESS 569), and Vlad Munteanu(ESS 469)
 
 The objective of this geoscience machine learning project is to attempt to correctly identify cloud types/cloud morphologies through image based classification, such as a convolutional neural network. 

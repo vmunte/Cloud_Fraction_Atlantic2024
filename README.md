@@ -71,3 +71,7 @@ Basemap Documentation (I did not use this, however, Brian does.)
 **High-level descriptions of each added notebook and scripts in this repository will be updated frequently, as new files are added. 
 
 Data is too large please navigate to this google drive for the data: https://drive.google.com/drive/folders/1PMfDE_NcJCksiyA4KFzyt387RP2d4bcR?usp=sharing
+
+How to use this repository:
+1. navigate to the notebooks folder and download the GOES data following this notebook: [DownloadGOES](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/blob/main/notebooks/DownloadGOESData.ipynb)
+2. next navigate to the DownloadERA5 notebook to download the supplementary meteorlogical field [DownloadERA5](

@@ -1,0 +1,14 @@
+name: cloud_fraction_prediction_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - xarray
+  - netCDF4
+  - cartopy
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - goes2go

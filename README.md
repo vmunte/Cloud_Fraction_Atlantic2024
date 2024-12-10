@@ -1,4 +1,4 @@
-# Cloud_Fraction_Atlantic_2024
+# Cloud_Fraction_Atlantic2024
 Anna Hall (ESS 569), Je-Yun Chun (ESS 569), Katherine Mifsud (ESS 569), and Vlad Munteanu (ESS 469)
 
 The objective of this geoscience machine learning project is to develop a machine learning model and pipeline to predict total cloud cover over the Atlantic Ocean using satellite data and reanalysis data. Current global climate models (GCMs), struggle to accurately predict cloud cover (CC) due to the complex dynamics and interactions at play in cloud formation, persistence, and dissipation. Furthermore, cloud cover is an important control on climate due to the influence of clouds on the total energy budget through trapping outgoing radiation and reflecting incoming radiation. Therefore, to further constrain future climate projections, it is crucial to accurately model cloud cover. We aim to utilize reanalysis estimates of cloud cover as the ground truth to train a machine learning model to accurately predict cloud cover from other, better-constrained variables.

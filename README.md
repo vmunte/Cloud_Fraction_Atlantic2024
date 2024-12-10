@@ -73,7 +73,20 @@ Basemap Documentation (I did not use this, however, Brian does.)
 Data is too large please navigate to this google drive for the data: https://drive.google.com/drive/folders/1PMfDE_NcJCksiyA4KFzyt387RP2d4bcR?usp=sharing
 
 How to use this repository:
-1. navigate to the notebooks folder and download the GOES data following this notebook: [DownloadGOES](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/blob/main/notebooks/DownloadGOESData.ipynb)
-2. next navigate to the DownloadERA5 notebook to download the supplementary meteorlogical field [DownloadERA5](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/blob/main/notebooks/DownloadERA5.ipynb)
-3. to process each individual GOES variable, naviate to the data folder and then to ai_ready, here we put all of the scripts for each variable, the notebooks take the raw data and make them ai ready. [Process GOES data](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/tree/main/data/ai_ready)
-4. with the newly saved netcdf files all other notebooks in the notebooks folder should be completely reproducible.
+1. clone the repository
+   ``` python
+   git clone https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024.git
+   cd Cloud_fraction_Atlantic2024
+   ```
+2. create the environment
+    ``` python
+    conda env create -f cloud_fraction_prediction.yml
+    ```
+3. activate the environment
+     ``` python
+   conda activate cloud_fraction_prediction
+    ```
+4. navigate to the notebooks folder and download the GOES data following this notebook: [DownloadGOES](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/blob/main/notebooks/DownloadGOESData.ipynb)
+5. next navigate to the DownloadERA5 notebook to download the supplementary meteorlogical field [DownloadERA5](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/blob/main/notebooks/DownloadERA5.ipynb)
+6. to process each individual GOES variable, naviate to the data folder and then to ai_ready, here we put all of the scripts for each variable, the notebooks take the raw data and make them ai ready. [Process GOES data](https://github.com/UW-MLGEO/Cloud_fraction_Atlantic2024/tree/main/data/ai_ready)
+7. with the newly saved netcdf files all other notebooks in the notebooks folder should be completely reproducible.
